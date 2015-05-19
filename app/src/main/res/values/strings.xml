@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"> Weather</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_setwall">Set Wallpaper</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_search">City</string>
+    <string name="pref_location_key">560100</string>
+    <string name="pref_location_default">560100</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine</item>
+    </style>
+
+    <style name="ForecastListStyle" >
+
+    </style>
+    <!-- The beef: background color for Action Bar overflow menu -->
+    <style name="App.PopupMenu" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/actionbar_light_blue</item>
+    </style>
+
+    <!-- ActionBar style -->
+    <style name="ActionBar.Solid.Sunshine" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/actionbar_light_blue</item>
+    </style>
+
+    <!-- Main activity theme -->
+    <style name="ForecastTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
+    </style>
+
+    <!-- Main activity action bar style -->
+    <style name="ActionBar.Solid.Sunshine.NoTitle" parent="@style/ActionBar.Solid.Sunshine">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@mipmap/weather_white</item>
+    </style>
+    <color name="actionbar_light_blue">#283593</color>
+    <color name="dark_background">#212121</color>
+
+
+</resources>
